@@ -146,38 +146,38 @@ module.exports = {
   },
   additionalPages: [
     {
-       path: '/mon-grimoire/',
-       frontmatter: {
+      path: '/mon-grimoire/',
+      frontmatter: {
           layout: 'MySpellsLayout'
-       }
+      }
     },
     {
-       path: '/mon-bestiaire/',
-       frontmatter: {
+      path: '/mon-bestiaire/',
+      frontmatter: {
           layout: 'MyMonstersLayout'
-       }
+      }
     },
     {
-       path: '/mes-objets-magiques/',
-       frontmatter: {
+      path: '/mes-objets-magiques/',
+      frontmatter: {
           layout: 'MyMagicItemsLayout'
-       }
+      }
     },
     {
-       path: '/creation-de-sort/',
-       frontmatter: {
+      path: '/creation-de-sort/',
+      frontmatter: {
           layout: 'CreateSpellLayout'
-       }
+      }
     },
     {
-       path: '/creation-de-monstre-pnj/',
-       frontmatter: {
+      path: '/creation-de-monstre-pnj/',
+      frontmatter: {
           layout: 'CreateMonsterLayout'
-       }
+      }
     },
     {
-       path: '/creation-d-objet-magique/',
-       frontmatter: {
+      path: '/creation-d-objet-magique/',
+      frontmatter: {
           layout: 'CreateMagicItemLayout'
        }
     },

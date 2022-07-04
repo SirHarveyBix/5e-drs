@@ -4,4 +4,3 @@ tmp/
 import/
 regex
 package-lock.json
-yarn.lock
