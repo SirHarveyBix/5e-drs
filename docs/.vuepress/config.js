@@ -3,7 +3,7 @@ module.exports = {
   description: 'Document de Référence Système pour jeux de rôle en OGL 5e',
   head: [
     ['link', { rel: 'icon', href: '/favicon-32x32.png' }],
-    ['link', { rel: 'manifest', crossorigin:"use-credentials", href: '/manifest.json' }],
+    ['link', { rel: 'manifest', crossorigin: "use-credentials", href: '/manifest.json' }],
     ['meta', { name: 'theme-color', content: '#435a3f' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -12,7 +12,7 @@ module.exports = {
     ['meta', { name: 'msapplication-TileImage', content: '/icons/mstile-144x144.png' }],
     ['meta', { name: 'msapplication-TileColor', content: '#ffffff' }]
   ],
-  shouldPrefetch () {
+  shouldPrefetch() {
     return false
   },
   plugins: [
@@ -125,21 +125,21 @@ module.exports = {
     ]
   ],
   dest: process.env.VUEPRESS_DEST,
-  extendPageData ($page) {
+  extendPageData($page) {
     $page.rawContent = ($page._strippedContent)
   },
   markdown: {
     html: true,
-    extractHeaders: [ 'h1', 'h2', 'h3', 'h4', 'h5', 'h6' ],
+    extractHeaders: ['h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
     anchor: {
       permalinkBefore: false,
       permalinkSymbol: '<i class="v-icon notranslate mdi mdi-link-variant"></i>'
     },
     extendMarkdown: md => {
-      md.use(require('markdown-it-div'), {marker: "§"})
+      md.use(require('markdown-it-div'), { marker: "§" })
       md.use(require('markdown-it-multimd-table'), {
-        multiline:  true,
-        rowspan:    true,
+        multiline: true,
+        rowspan: true,
         headerless: false,
       })
     }
@@ -148,50 +148,50 @@ module.exports = {
     {
       path: '/mon-grimoire/',
       frontmatter: {
-          layout: 'MySpellsLayout'
+        layout: 'MySpellsLayout'
       }
     },
     {
       path: '/mon-bestiaire/',
       frontmatter: {
-          layout: 'MyMonstersLayout'
+        layout: 'MyMonstersLayout'
       }
     },
     {
       path: '/mes-objets-magiques/',
       frontmatter: {
-          layout: 'MyMagicItemsLayout'
+        layout: 'MyMagicItemsLayout'
       }
     },
     {
       path: '/creation-de-sort/',
       frontmatter: {
-          layout: 'CreateSpellLayout'
+        layout: 'CreateSpellLayout'
       }
     },
     {
       path: '/creation-de-monstre-pnj/',
       frontmatter: {
-          layout: 'CreateMonsterLayout'
+        layout: 'CreateMonsterLayout'
       }
     },
     {
       path: '/creation-d-objet-magique/',
       frontmatter: {
-          layout: 'CreateMagicItemLayout'
-       }
+        layout: 'CreateMagicItemLayout'
+      }
     },
     {
-       path: '/calculateur-de-caracteristiques/',
-       frontmatter: {
-          layout: 'AbilityCalculatorLayout'
-       }
+      path: '/calculateur-de-caracteristiques/',
+      frontmatter: {
+        layout: 'AbilityCalculatorLayout'
+      }
     },
     {
-       path: '/homebrew/',
-       frontmatter: {
-          layout: 'HomebrewLayout'
-       }
+      path: '/homebrew/',
+      frontmatter: {
+        layout: 'HomebrewLayout'
+      }
     }
   ],
   themeConfig: {
@@ -589,7 +589,7 @@ module.exports = {
           }
         ]
       },
-      {type: 'divider'},
+      { type: 'divider' },
       {
         title: 'Bibliothèques',
         icon: 'mdi-book',
@@ -633,13 +633,13 @@ module.exports = {
           },
         ]
       },
-      {type: 'divider'},
+      { type: 'divider' },
       {
         title: "Licence OGL",
         path: '/licence-ogl/',
         icon: 'mdi-clipboard-text'
       },
-      {type: 'divider'},
+      { type: 'divider' },
       {
         title: 'Communauté',
         icon: 'mdi-account-group',
