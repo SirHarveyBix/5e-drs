@@ -69,7 +69,7 @@ Bienvenue sur le site **Document de Référence Système** pour les jeux de rôl
 * [Avantage et désavantage](/utiliser-les-caracteristiques/#avantage-et-desavantage)
 * [Bonus de maîtrise](/utiliser-les-caracteristiques/#bonus-de-maitrise)
 * [Tests de caractéristique](/utiliser-les-caracteristiques/#tests-de-caracteristique)
-* [Utiliser les caractéristiques](/utiliser-les-caracteristiques/#utiliser-les-caracteristiques-2)
+* [Utiliser ses caractéristiques](/utiliser-les-caracteristiques/#utiliser-ses-caracteristiques)
 * [Jets de sauvegarde](/utiliser-les-caracteristiques/#jets-de-sauvegarde)
 
 <h3><a href="/partir-a-l-aventure/">Partir à l'aventure</a></h3>

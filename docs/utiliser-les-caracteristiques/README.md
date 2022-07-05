@@ -165,7 +165,7 @@ Pour faire un [test de caractéristique](/utiliser-les-caracteristiques/#tests-d
 
 Les tests de groupe ne sont pas fréquents. Ils interviennent quand tous les personnages réussissent ou échouent ensemble. Par exemple, quand les aventuriers traversent un marais, le MJ peut leur demander de réaliser un [test de caractéristique](/utiliser-les-caracteristiques/#tests-de-caracteristique) de groupe de Sagesse (Survie) afin de vérifier s'ils évitent les sables mouvants, les trous d'eau ou tout autre danger naturel qui se trouve dans leur environnement. Si au moins la moitié du groupe réussit, les personnages qui ont réussi leur test aident les autres à éviter les dangers. Sinon, l'ensemble du groupe tombe dans l'un de ces pièges.
 
-## Utiliser les caractéristiques
+## Utiliser ses caractéristiques
 Chaque action qu'un personnage ou un monstre tente de réaliser dans le jeu fait appel à l'une des six caractéristiques. Vous trouverez dans cette section une présentation de chacune de ces caractéristiques et de la façon dont elles sont utilisées dans le cadre du jeu.
 
 ### Force
