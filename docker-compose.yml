@@ -6,12 +6,9 @@ services:
     build: .
     container_name: DD_doc
     volumes:
-      - docs:/app/docs
+      - ./docs:/app/docs
       - /app/node_modules
     ports:
       - '8080:8080'
     stdin_open: true
     tty: true
-
-volumes:
-  docs:
